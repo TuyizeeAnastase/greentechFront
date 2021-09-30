@@ -180,7 +180,7 @@ a,
 .lead {
     font-size: 18px;
     line-height: 30px;
-    color: #767676;
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -1295,7 +1295,9 @@ li.social-links a {
 .message-box p {
     margin-bottom: 20px;
 }
-
+.lead{
+    color: black;
+}
 .message-box .lead {
     padding-top: 10px;
     font-size: 19px;
@@ -2971,6 +2973,7 @@ select.mobile-device {
 	color: #fd6802;
 }
 
+
 .about-item:hover .about-icon{
 	transform: rotate(-360deg);
 	transition: all 1s ease-in-out;
@@ -2984,7 +2987,7 @@ select.mobile-device {
 
 
 .portfolio-filter ul li .btn-dark.active{
-	background: #fcbf02;
+	background: #0C331E;
 	color: #ffffff;
 }
 
