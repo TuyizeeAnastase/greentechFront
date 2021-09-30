@@ -2980,7 +2980,6 @@ select.mobile-device {
 }
 
 .about-item:hover .about-icon span{
-	color: <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />;
 	transition: all 1s ease-in-out;
 }
 
