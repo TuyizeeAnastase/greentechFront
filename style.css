@@ -410,7 +410,7 @@ a img.aligncenter {
     background-color: rgba(255, 255, 255);
     display: block;
     left: 0;
-    padding: 20px 40px !important;
+    padding: 10px 0px !important;
     position: relative;
     right: 0;
     top: 0;
@@ -508,21 +508,21 @@ li.social-links a {
 -------------------------------------------------------------------*/
 
 .slider-bg-one {
-    background-image: url("uploads/slider_01.jpg");
+    background-image: url("uploads/carousel-1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider-bg-two {
-    background-image: url("uploads/slider_02.jpg");
+    background-image: url("uploads/carouse-2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider-bg-three {
-    background-image: url("uploads/slider_03.jpg");
+    background-image: url("uploads/carousel-3.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2868,7 +2868,7 @@ select.mobile-device {
 
 
 .banner-bg-1{
-	background: url(uploads/inner-bg.jpg);
+	background: url(uploads/aboutus.jpg);
 	padding: 120px 0;	
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);

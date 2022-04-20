@@ -33,7 +33,23 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
 
+    <script type="text/javascript">
+        function sendEmail() {
+            Email.send({
+                SecureToken: "security token of your smtp",
+                To: "tuyizereanastase1@gmail.com",
+                From: document.getElementById('email').value,
+                firstName:document.getElementById('first_name').value,
+                lastName:document.getElementById('first_name').value, 
+                phone: document.getElementById('phone').value,
+                Body: document.getElementById('comments').value
+            }).then( 
+                message => alert(document.getElementById('email').value)
+            );
+        }
+    </script> -->
 </head>
 <body>
 
@@ -56,7 +72,7 @@
 				<div class="col-md-6 col-sm-6">
 					<div class="left-top">
 						<div class="email-box">
-							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> greentech@gmail.com</a>
+							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@greenalytic.rw</a>
 						</div>
 						<div class="phone-box">
 							<a href="tel:1234567890"><i class="fa fa-phone" aria-hidden="true"></i> +250 234 567 890</a>
@@ -89,7 +105,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logos/g.png" style="width: 20rem;height: 12rem;margin-top: -4rem;" alt="image"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/Greene-Tech-_black-no-bg_ (2).png" style="width: 20rem;height: 12rem;margin-top: -4rem;" alt="image"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -133,10 +149,10 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="contact_form">
                         <div id="message"></div>
-                        <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                        <form action=”mailto:tuyizereanastase1@gmail.com”  method="post" enctype=”multipart/form-data” name=”EmailForm”>
                             <fieldset class="row-fluid">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                    <input type="text"  name=”ContactName” id="first_name" class="form-control" placeholder="First Name">
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
@@ -148,16 +164,16 @@
                                     <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                    <textarea class="form-control"  name=”ContactCommentt” id="comments" rows="6" placeholder="Give us more details.."></textarea>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Submit</button>
+                                    <input type="button" type=”submit” value="Send Email">
                                 </div>
                             </fieldset>
                         </form>
                     </div>
                 </div><!-- end col -->
-            </div><!-- end row -->
+            </div>
 			
 			<div class="row">
 				<div class="col-md-offset-1 col-sm-10 col-md-10 col-sm-offset-1 pd-add">
@@ -197,7 +213,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <img src="images/logos/g.png" style="height: 20rem;width: 20rem;margin-top: -14rem;margin-bottom: -4rem;" alt="" />
+                            <img src="images/Greene-Tech-_White-no-bg_.png"  style="height: 20rem;width: 20rem;margin-top: -14rem;margin-bottom: -4rem;" alt="" />
                         </div>
                         <p>To promote and ensure the protection of the environment and sustainable management of natural resources through decentralized structures of governance and seek national position to emerging global issues with a view to enhancing the well-being of the Rwandan people.                        </p>
                     </div><!-- end clearfix -->
@@ -242,8 +258,8 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">GreenTech</a> Design By : 
-					<a href="https://html.design/">codeWithAnastase</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="#">GreenTech</a> Design By : 
+                        <a href="#">250STARTUPS</a></p>
                 </div>
 
                 
